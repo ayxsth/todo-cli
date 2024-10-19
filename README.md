@@ -4,13 +4,13 @@ This is a simple command-line interface (CLI) application for managing a todo li
 
 ## Project Structure
 
-cmd/ app/ main.go go.mod go.sum internal/ command/ command.go storage/ storage.go todo/ todo.go todos.json
-
 ```
 todo-cli/
 ├── cmd/
 │   └── app/
 │       └── main.go
+├── data/
+│   └── data.json
 ├── internal/
 │   ├── command/
 │   │   └── command.go
@@ -18,7 +18,6 @@ todo-cli/
 │   │   └── storage.go
 │   └── todo/
 │       ├── todo.go
-│       └── todos.json
 ├── go.mod
 └── go.sum
 ```
